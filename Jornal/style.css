@@ -3,7 +3,11 @@
 }
 header {
 	background-color: blue;
-	font-color: white;
 }
 ul {
-	
+	list-style-type: none;
+}
+aside {
+	background-color: #2A2F33;
+	color: #000;
+}
