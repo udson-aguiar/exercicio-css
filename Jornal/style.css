@@ -57,7 +57,10 @@ img {
 section.h1 {
 	background-color: red;
 }
-span {
+section {
+	border-top: 3px solid black;
+}
+span.author, span.tags, span.user, span.date, a.comments {
 	background-color: #ff003b;
 }
 footer p {
