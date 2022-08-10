@@ -1,13 +1,66 @@
 * {
+	text-decoration: none;
+	display: grid;
+}
+body {
 	text-align: center;
 }
-header {
+body > header {
 	background-color: blue;
+	text-align: left;
+	border-bottom: 3px red;
+}
+body > header a{
+	color: white;
+	text-decoration: none;
+	text-align: left;
 }
 ul {
 	list-style-type: none;
 }
+input {
+	display: none;
+}
+#menu > ul li:nth-child(1) {
+	border-top: 5px solid red;
+}
+#menu > ul li:nth-child(2) {
+	border-top: 5px solid green;
+}
+#menu > ul li:nth-child(3) {
+	border-top: 5px solid darkblue;
+}
+#menu > ul li:nth-child(4) {
+	border-top: 5px solid orange;
+}
+#menu > ul li:nth-child(5) {
+	border-top: 5px solid dodgerblue;
+}
+#menu > ul li:nth-child(6) {
+	border-top: 5px solid pink;
+}
 aside {
 	background-color: #2A2F33;
 	color: #000;
+	color: white;
+	text-align: left;
+}
+aside a {
+	color: white;
+}
+article {
+	text-align: justify;
+}
+img {
+	width: 100%;
+}
+section.h1 {
+	background-color: red;
+}
+span {
+	background-color: #ff003b;
+}
+footer p {
+	background-color: black;
+	color: white;
 }
